@@ -1,0 +1,15 @@
+{
+  "source": "NASA Planetary Fact Sheet",
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+  "units": {
+    "distance": "million km from the Sun",
+    "gravity": "m/s^2",
+    "temperature": "mean temperature in degrees C"
+  },
+  "planets": [
+    { "name": "Moon",    "distance": 149.6, "gravity": 1.6,  "temperature": -20,
+      "note": "NASA lists 0.384 million km for the Moon, but that is its distance from Earth. The Moon goes around the Sun with Earth, so we used Earth's distance (149.6)." },
+    { "name": "Mars",    "distance": 228.0, "gravity": 3.7,  "temperature": -65 },
+    { "name": "Jupiter", "distance": 778.5, "gravity": 23.1, "temperature": -110 }
+  ]
+}
